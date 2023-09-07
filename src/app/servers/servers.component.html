@@ -10,6 +10,7 @@
     </div>
   </div>
   <div class="col-xs-12 col-sm-4">
+    <a routerLink="servers">Reoload Page</a> <!-- adding a relative path here will error it out cause the component at root level is localhost:4200/servers and addint just a relative path will append it to the end of this: localhost:4200/servers/servers good for nested routes /-->
     <app-edit-server></app-edit-server>
     <hr>
     <app-server></app-server>
